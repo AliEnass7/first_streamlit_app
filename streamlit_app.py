@@ -54,7 +54,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 
 # Do not run anything until we troubleshoot
-# streamlit.stop()
+streamlit.stop()
 
 # import snowflake.connector
 # my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
