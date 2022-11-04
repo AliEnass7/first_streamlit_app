@@ -1,3 +1,6 @@
+@settings {
+  font-size: 100;
+}
 import streamlit
 import pandas
 import requests
